@@ -1,0 +1,15 @@
+{
+  "name": "usina-de-pesquisa",
+  "description": "Plugins de Aldemar Araujo Castro para pesquisa, inovação e empreendedorismo, da Usina de Pesquisa.",
+  "owner": {
+    "name": "Aldemar Araujo Castro",
+    "url": "https://usinadepesquisa.com"
+  },
+  "plugins": [
+    {
+      "name": "trilha-startup",
+      "source": "./plugins/trilha-startup",
+      "description": "Trilha guiada para criar e validar uma startup em estágio inicial: ideia, persona, proposta de valor, modelo de negócios e pitch."
+    }
+  ]
+}
