@@ -26,13 +26,36 @@ Os elementos de cliente, solução e monetização tratados aqui são **hipótes
 - **Nenhum Dado Inventado:** Nunca apresente tamanho de mercado, estatística, nome de concorrente, preço ou qualquer dado factual sem fonte verificável. Se a ferramenta de busca estiver disponível, pesquise e cite a fonte; se não estiver, ou se a informação não for confirmada, marque-a com **[verificar]** e diga ao usuário como confirmá-la. Exemplos ilustrativos devem ser apresentados como ilustrativos.
 - **Rascunho, não Veredito:** Tudo o que a skill produz é material de trabalho. Quem decide é o empreendedor.
 
+## Decisões do Usuário
+
+Sempre que o usuário precisar escolher entre alternativas (seguir ou revisar, aceitar ou corrigir, escolher versões, formatos ou caminhos), apresente a decisão assim:
+
+- **Botões, quando houver:** se o ambiente oferecer uma ferramenta de perguntas com opções clicáveis, use-a, com as mesmas opções e a mesma numeração da lista.
+- **Lista numerada, sempre:** apresente as opções numeradas (1, 2, 3...), uma por linha, com no máximo cinco opções. Quando houver recomendação, coloque a opção recomendada em primeiro lugar e marque-a com "(recomendado)".
+- **Opção livre:** a última opção é sempre "Outra: descreva o que prefere".
+- **Como responder:** termine com a frase "Responda com o número da opção." Aceite também respostas como "a segunda", o texto da opção ou uma resposta livre.
+- **Uma decisão por vez:** não junte duas decisões na mesma lista. Quando várias perguntas curtas forem feitas na mesma mensagem, numere as perguntas e identifique as opções de cada uma por letras (a, b, c).
+- **Perguntas abertas:** perguntas que pedem uma descrição do usuário (por exemplo, "que dor você observou?") continuam abertas e não recebem opções, salvo quando a skill oferecer exemplos numerados para inspiração.
+
+Exemplo:
+
+> Como você quer seguir?
+> 1. Seguir para a próxima etapa (recomendado)
+> 2. Revisar algo desta etapa
+> 3. Parar por agora
+> 4. Outra: descreva o que prefere
+>
+> Responda com o número da opção.
+
+---
+
 ## Perfil da Startup
 
 Todas as skills da cadeia compartilham um arquivo chamado `perfil-startup.md`, que acumula o que já foi decidido.
 
 **No início:** verifique se há um `perfil-startup.md` disponível (na pasta de trabalho, nos arquivos do Projeto ou anexado à conversa).
 
-- Se houver, leia-o, resuma em três linhas o que já está definido e pergunte se o usuário quer retomar de onde parou ou rever alguma fase. Pule a Fase 0.
+- Se houver, leia-o, resuma em três linhas o que já está definido e pergunte como o usuário quer seguir, com opções numeradas: 1. Retomar de onde parou (recomendado); 2. Rever uma fase específica; 3. Recomeçar a etapa; 4. Outra: descreva o que prefere. Responda com o número da opção. Pule a Fase 0.
 - Se não houver, comece pela Fase 0.
 
 **No final (Fase 6):** crie ou atualize o perfil conforme a seção "Registro no Perfil da Startup". Se houver pasta de trabalho acessível, grave o arquivo nela. Caso contrário, entregue o arquivo ao usuário e oriente: "Para que as próximas etapas aproveitem este trabalho, crie um Projeto no Claude e adicione este arquivo aos arquivos do Projeto, ou anexe-o no início da próxima conversa."
@@ -47,7 +70,7 @@ Pule esta fase se já houver perfil da startup.
 Explique em uma frase que as perguntas servem para adaptar os exemplos à realidade do usuário. Faça três perguntas, numeradas, em uma única mensagem:
 
 1. Qual é a sua área de atuação ou formação?
-2. Você já empreendeu ou participou de algum projeto de inovação? (nunca, um pouco, bastante)
+2. Você já empreendeu ou participou de algum projeto de inovação? a) nunca; b) um pouco; c) bastante
 3. Que recursos você tem hoje para começar? (tempo disponível, equipe, conhecimento técnico, acesso a clientes, dinheiro)
 
 Aguarde a resposta do usuário.
@@ -97,9 +120,13 @@ Apresente a tabela preenchida com nota, nível de evidência e uma justificativa
 
 - Se houver nota 1 ou 2 em algum pilar, ou nota total abaixo de 9, oriente ajustes pontuais e pergunte se o usuário quer revisar alguma fase antes de seguir.
 - Se uma nota alta estiver apoiada apenas em suposição, diga isso explicitamente: a nota expressa uma aposta, não uma constatação.
-- Encerre com uma recomendação clara (seguir, ajustar ou abandonar) e lembre que a decisão é do usuário.
+- Encerre com uma recomendação clara e lembre que a decisão é do usuário. Apresente a decisão numerada, com a opção recomendada em primeiro lugar:
+  - Seguir com a ideia como está
+  - Ajustar: revisar a fase indicada (dor, público ou solução)
+  - Abandonar esta ideia e começar outra
+  - Outra: descreva o que prefere
 
-Aguarde a decisão do usuário.
+  Responda com o número da opção. Aguarde a decisão do usuário.
 
 ### Fase 5: Hipóteses Testáveis
 Transforme a ideia em três hipóteses formais, cada uma com um critério de refutação, isto é, o resultado que, se observado, mostraria que a hipótese é falsa:
@@ -112,7 +139,7 @@ Transforme a ideia em três hipóteses formais, cada uma com um critério de ref
 
 Os números dos exemplos são ilustrativos; ajuste os critérios ao contexto com o usuário. Identifique qual das três é a **premissa de maior risco**: aquela que, se falsa, inviabiliza a ideia inteira.
 
-Aguarde a confirmação do usuário.
+Apresente a decisão numerada: 1. Confirmar as hipóteses e a premissa de maior risco (recomendado); 2. Ajustar algum enunciado ou critério; 3. Outra: descreva o que prefere. Responda com o número da opção. Aguarde a confirmação do usuário.
 
 ### Fase 6: Entrega do Artefato Final
 Entregue o artefato em um único documento com quatro partes:
@@ -131,12 +158,32 @@ Entregue o artefato em um único documento com quatro partes:
 
 3. **Hipóteses e critérios de refutação** (tabela da Fase 5).
 
-4. **Próximos passos:** o experimento de validação descrito em termos práticos (o que fazer, com quantas pessoas, em quanto tempo) e a indicação da etapa seguinte: "Quando quiser aprofundar o perfil do seu cliente, peça para seguir para a etapa de persona (startup-persona)."
+4. **Próximos passos:** o experimento de validação descrito em termos práticos (o que fazer, com quantas pessoas, em quanto tempo). A passagem para a etapa seguinte segue a seção "Transição para a Próxima Etapa".
 
 **Formatos de entrega:**
 - Salve o artefato como arquivo Markdown, com o nome `01-ideia_[nome-da-startup].md`.
 - Quando o ambiente oferecer documentos do Claude (tipo Docs), entregue também o artefato nesse formato.
 - Crie ou atualize o `perfil-startup.md`, conforme a seção "Perfil da Startup".
+
+### Transição para a Próxima Etapa
+
+Depois de entregar os arquivos, encerre a etapa com dois elementos:
+
+1. **Por que a próxima etapa importa:** um parágrafo de 3 a 5 linhas, adaptado ao caso do usuário, a partir deste texto de base:
+   > Até aqui, o cliente é um esboço. A etapa de persona transforma esse esboço em uma pessoa concreta: o que ela precisa fazer, o que a incomoda, o que ela ganharia e quem decide, paga e usa. Sem isso, a proposta de valor e o modelo de negócios ficam apoiados em suposições sobre alguém que você ainda não conhece bem. A etapa termina com um roteiro de entrevista para verificar se o cliente que você imaginou existe.
+
+2. **Decisão numerada**, conforme a seção "Decisões do Usuário":
+   1. Seguir para a etapa de persona (recomendado)
+   2. Realizar primeiro o experimento de validação proposto
+   3. Revisar algo desta etapa
+   4. Parar por agora: o perfil da startup já está salvo, e para retomar basta dizer "quero criar a persona do meu cliente"
+   5. Outra: descreva o que prefere
+
+   Responda com o número da opção.
+
+Se a decisão do Ponto de Decisão tiver sido "ajustar" ou "abandonar", coloque em primeiro lugar, como recomendada, a opção de revisar esta etapa.
+
+Se o usuário escolher seguir, inicie a etapa seguinte na mesma conversa, com a skill correspondente.
 
 ---
 

@@ -2,6 +2,15 @@
 
 Este arquivo registra as mudanças de cada versão do plugin Trilha Startup. A numeração segue o padrão MAIOR.MENOR.CORREÇÃO: correções de texto aumentam o último número; novos recursos, o do meio; mudanças que alteram o formato do perfil da startup, o primeiro.
 
+## 1.1.0 (2026-11-03)
+
+Melhorias de usabilidade em todo o conjunto.
+
+- Todas as skills: decisões do usuário sempre numeradas, com a opção recomendada em primeiro lugar, uma opção livre ao final e a orientação "Responda com o número da opção"; botões clicáveis quando o ambiente oferecer essa ferramenta.
+- Transições entre skills: ao final de cada etapa, um parágrafo de 3 a 5 linhas explica por que a próxima etapa importa, seguido de decisão numerada (seguir, alternativa recomendada conforme a evidência, revisar, parar ou outra).
+- `startup-pitch` e `startup-pipeline`: a oferta do dossiê deixa de ser opcional; ao final da trilha, o dossiê é sempre oferecido, com explicação e decisão numerada.
+- `startup-modelo-negocios` e `startup-pitch`: escolhas múltiplas (temas regulatórios e versões do pitch) respondidas por números.
+
 ## 1.0.1 (2026-11-02)
 
 Correções a partir do teste de encadeamento com caso fictício.

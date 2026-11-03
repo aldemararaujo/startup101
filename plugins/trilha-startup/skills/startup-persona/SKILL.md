@@ -31,6 +31,29 @@ Esta etapa descreve o **cliente**, nunca a solução. Sempre que a conversa deri
 - **Linguagem Ajustada ao Usuário:** Use a experiência registrada no perfil da startup. Para iniciantes, explique em uma frase o que é cada item antes de preenchê-lo.
 - **Rascunho, não Veredito:** Quem conhece o cliente é o empreendedor, e quem o confirma são as entrevistas.
 
+## Decisões do Usuário
+
+Sempre que o usuário precisar escolher entre alternativas (seguir ou revisar, aceitar ou corrigir, escolher versões, formatos ou caminhos), apresente a decisão assim:
+
+- **Botões, quando houver:** se o ambiente oferecer uma ferramenta de perguntas com opções clicáveis, use-a, com as mesmas opções e a mesma numeração da lista.
+- **Lista numerada, sempre:** apresente as opções numeradas (1, 2, 3...), uma por linha, com no máximo cinco opções. Quando houver recomendação, coloque a opção recomendada em primeiro lugar e marque-a com "(recomendado)".
+- **Opção livre:** a última opção é sempre "Outra: descreva o que prefere".
+- **Como responder:** termine com a frase "Responda com o número da opção." Aceite também respostas como "a segunda", o texto da opção ou uma resposta livre.
+- **Uma decisão por vez:** não junte duas decisões na mesma lista. Quando várias perguntas curtas forem feitas na mesma mensagem, numere as perguntas e identifique as opções de cada uma por letras (a, b, c).
+- **Perguntas abertas:** perguntas que pedem uma descrição do usuário (por exemplo, "que dor você observou?") continuam abertas e não recebem opções, salvo quando a skill oferecer exemplos numerados para inspiração.
+
+Exemplo:
+
+> Como você quer seguir?
+> 1. Seguir para a próxima etapa (recomendado)
+> 2. Revisar algo desta etapa
+> 3. Parar por agora
+> 4. Outra: descreva o que prefere
+>
+> Responda com o número da opção.
+
+---
+
 ## Perfil da Startup
 
 Todas as skills da cadeia compartilham o arquivo `perfil-startup.md`.
@@ -38,8 +61,8 @@ Todas as skills da cadeia compartilham o arquivo `perfil-startup.md`.
 **No início:** verifique se há um `perfil-startup.md` disponível (na pasta de trabalho, nos arquivos do Projeto ou anexado à conversa).
 
 - Se houver, leia a seção "Etapa 1: Ideia" e use a dor do cliente, o público preliminar, a hipótese de cliente, as alternativas atuais e a premissa de maior risco como ponto de partida. Resuma em três linhas o que herdou e não repita perguntas já respondidas.
-- **Decisão da etapa 1:** se o campo "Decisão" da seção "Etapa 1: Ideia" for "ajustar" ou "abandonar", avise o usuário antes de começar: "Na etapa 1, a decisão registrada foi [ajustar ou abandonar]. Seguir adiante sem rever a ideia pode construir em cima de uma premissa frágil. Quer revisar a ideia primeiro (startup-ideia) ou seguir mesmo assim?" Respeite a escolha e registre-a no perfil.
-- Se a seção "Etapa 2: Persona" já estiver preenchida, pergunte se o usuário quer revisar a persona existente ou construir uma nova.
+- **Decisão da etapa 1:** se o campo "Decisão" da seção "Etapa 1: Ideia" for "ajustar" ou "abandonar", avise o usuário antes de começar: "Na etapa 1, a decisão registrada foi [ajustar ou abandonar]. Seguir adiante sem rever a ideia pode construir em cima de uma premissa frágil. Como você quer seguir?" Em seguida, apresente as opções numeradas: 1. Revisar a ideia primeiro (recomendado); 2. Seguir mesmo assim; 3. Outra: descreva o que prefere. Responda com o número da opção. Respeite a escolha e registre-a no perfil.
+- Se a seção "Etapa 2: Persona" já estiver preenchida, pergunte como o usuário quer seguir, com opções numeradas: 1. Revisar a persona existente (recomendado); 2. Construir uma nova; 3. Outra: descreva o que prefere. Responda com o número da opção.
 - Se não houver perfil, aceite o contexto que o usuário informar na conversa e sugira, sem obrigar, passar antes pela etapa startup-ideia.
 
 **Se o perfil ainda não existir:** crie-o a partir do modelo comum `references/modelo-perfil-startup.md`, que acompanha esta skill. Se o modelo não estiver acessível, crie o perfil com o cabeçalho, a seção desta etapa preenchida, as seções das demais etapas com a palavra "pendente" e as seções "Registro de Experimentos" e "Pontos marcados [verificar]".
@@ -132,7 +155,27 @@ Incorpore as correções do usuário, ajuste os níveis de evidência e apresent
 - Salve a persona final, o mapa de papéis e o roteiro de validação em um arquivo Markdown com o nome `02-persona_[nome-da-startup].md`.
 - Quando o ambiente oferecer documentos do Claude (tipo Docs), entregue também nesse formato.
 - Atualize o `perfil-startup.md`, conforme a seção "Perfil da Startup".
-- Termine indicando a etapa seguinte: "Quando quiser definir por que esse cliente escolheria a sua solução, peça para seguir para a etapa de proposta de valor (startup-proposta-valor)." Recomende, se a persona for majoritariamente suposição, realizar as entrevistas antes de seguir.
+- Encerre conforme a seção "Transição para a Próxima Etapa".
+
+### Transição para a Próxima Etapa
+
+Depois de entregar os arquivos, encerre a etapa com dois elementos:
+
+1. **Por que a próxima etapa importa:** um parágrafo de 3 a 5 linhas, adaptado ao caso do usuário, a partir deste texto de base:
+   > Agora que o cliente está descrito, falta mostrar por que ele escolheria a sua solução e não a alternativa que usa hoje. A etapa de proposta de valor liga, item por item, cada dor e cada ganho da persona a um elemento da solução, e revela o que fica sem resposta e o que sobra. É essa ligação que sustenta o diferencial que você vai apresentar depois, e ela termina com um teste para verificar se o cliente de fato se importa.
+
+2. **Decisão numerada**, conforme a seção "Decisões do Usuário":
+   1. Seguir para a etapa de proposta de valor (recomendado)
+   2. Fazer primeiro as entrevistas do roteiro de validação
+   3. Revisar algo desta etapa
+   4. Parar por agora: o perfil da startup já está salvo, e para retomar basta dizer "quero fazer a proposta de valor da minha startup"
+   5. Outra: descreva o que prefere
+
+   Responda com o número da opção.
+
+Se a persona for majoritariamente suposição, coloque em primeiro lugar, como recomendada, a opção de fazer primeiro as entrevistas.
+
+Se o usuário escolher seguir, inicie a etapa seguinte na mesma conversa, com a skill correspondente.
 
 ## Registro no Perfil da Startup
 

@@ -58,6 +58,29 @@ Esta skill é a **etapa 4 de 5** da cadeia de startups:
 - **Linguagem Ajustada ao Usuário:** Use a experiência registrada no perfil da startup. Para iniciantes, explique cada bloco em uma frase antes de preenchê-lo e ofereça a economia unitária como opcional.
 - **Rascunho, não Veredito:** O canvas é um conjunto de hipóteses a testar, não um plano definitivo.
 
+## Decisões do Usuário
+
+Sempre que o usuário precisar escolher entre alternativas (seguir ou revisar, aceitar ou corrigir, escolher versões, formatos ou caminhos), apresente a decisão assim:
+
+- **Botões, quando houver:** se o ambiente oferecer uma ferramenta de perguntas com opções clicáveis, use-a, com as mesmas opções e a mesma numeração da lista.
+- **Lista numerada, sempre:** apresente as opções numeradas (1, 2, 3...), uma por linha, com no máximo cinco opções. Quando houver recomendação, coloque a opção recomendada em primeiro lugar e marque-a com "(recomendado)".
+- **Opção livre:** a última opção é sempre "Outra: descreva o que prefere".
+- **Como responder:** termine com a frase "Responda com o número da opção." Aceite também respostas como "a segunda", o texto da opção ou uma resposta livre.
+- **Uma decisão por vez:** não junte duas decisões na mesma lista. Quando várias perguntas curtas forem feitas na mesma mensagem, numere as perguntas e identifique as opções de cada uma por letras (a, b, c).
+- **Perguntas abertas:** perguntas que pedem uma descrição do usuário (por exemplo, "que dor você observou?") continuam abertas e não recebem opções, salvo quando a skill oferecer exemplos numerados para inspiração.
+
+Exemplo:
+
+> Como você quer seguir?
+> 1. Seguir para a próxima etapa (recomendado)
+> 2. Revisar algo desta etapa
+> 3. Parar por agora
+> 4. Outra: descreva o que prefere
+>
+> Responda com o número da opção.
+
+---
+
 ## Perfil da Startup
 
 Todas as skills da cadeia compartilham o arquivo `perfil-startup.md`.
@@ -70,8 +93,8 @@ Todas as skills da cadeia compartilham o arquivo `perfil-startup.md`.
   - **Canais e Relacionamento, como ponto de partida:** das "Implicações para o Modelo de Negócios" (etapa 3) e do item "Onde se informa" (etapa 2);
   - **Fontes de Receita, como ponto de partida:** do modelo inicial de monetização (etapa 1).
   Resuma em três linhas o que herdou e não repita perguntas já respondidas.
-- **Decisão da etapa 1:** se o campo "Decisão" da seção "Etapa 1: Ideia" for "ajustar" ou "abandonar", avise o usuário antes de começar: "Na etapa 1, a decisão registrada foi [ajustar ou abandonar]. Seguir adiante sem rever a ideia pode construir em cima de uma premissa frágil. Quer revisar a ideia primeiro (startup-ideia) ou seguir mesmo assim?" Respeite a escolha e registre-a no perfil.
-- Se a seção "Etapa 4: Modelo de Negócios" já estiver preenchida, pergunte se o usuário quer revisá-la ou construir uma nova.
+- **Decisão da etapa 1:** se o campo "Decisão" da seção "Etapa 1: Ideia" for "ajustar" ou "abandonar", avise o usuário antes de começar: "Na etapa 1, a decisão registrada foi [ajustar ou abandonar]. Seguir adiante sem rever a ideia pode construir em cima de uma premissa frágil. Como você quer seguir?" Em seguida, apresente as opções numeradas: 1. Revisar a ideia primeiro (recomendado); 2. Seguir mesmo assim; 3. Outra: descreva o que prefere. Responda com o número da opção. Respeite a escolha e registre-a no perfil.
+- Se a seção "Etapa 4: Modelo de Negócios" já estiver preenchida, pergunte como o usuário quer seguir, com opções numeradas: 1. Revisar o modelo de negócios existente (recomendado); 2. Construir uma nova; 3. Outra: descreva o que prefere. Responda com o número da opção.
 - Se não houver perfil nem documento, solicite informações básicas sobre:
   1. Problema e solução.
   2. Público-alvo e cliente.
@@ -100,7 +123,7 @@ Em B2B, B2B2C e B2G, verifique se canais e relacionamento alcançam quem **decid
 
 Construa com o usuário os blocos 6, 7 e 8: Recursos, Atividades e Parcerias-Chave. Para cada aliviador de dor e cada criador de ganho da etapa 3, pergunte que atividade o entrega e que recurso o sustenta.
 
-**Verificação regulatória obrigatória.** Pergunte se a solução envolve algum dos temas abaixo. Para cada tema aplicável, registre a atividade-chave, o recurso e o custo correspondentes, e marque com **[verificar]** os detalhes que dependem da norma vigente, orientando o usuário a confirmar com o NIT da sua instituição, com um advogado ou com o órgão competente.
+**Verificação regulatória obrigatória.** Pergunte se a solução envolve algum dos temas abaixo, apresentando-os numerados (1 a 5, na ordem da tabela) e pedindo: "Responda com os números de todos os temas que se aplicam, ou 0 se nenhum se aplicar." Para cada tema aplicável, registre a atividade-chave, o recurso e o custo correspondentes, e marque com **[verificar]** os detalhes que dependem da norma vigente, orientando o usuário a confirmar com o NIT da sua instituição, com um advogado ou com o órgão competente.
 
 | Tema | Quando se aplica | Normas de referência |
 |---|---|---|
@@ -175,7 +198,27 @@ Conclua com o mapa de premissas, o cartão de teste e a passagem para a etapa se
 - Salve o resultado em um arquivo Markdown com o nome `04-modelo-negocios_[nome-da-startup].md`.
 - Quando o ambiente oferecer documentos do Claude (tipo Docs), entregue também nesse formato.
 - Atualize o `perfil-startup.md`, conforme a seção "Perfil da Startup".
-- Termine indicando a etapa seguinte: "Quando quiser preparar a apresentação da startup para investidores, bancas ou parceiros, peça para seguir para a etapa de pitch (startup-pitch)." Informe que o pitch usará o modelo de receita, as métricas-chave, a vantagem competitiva e a economia unitária registrados aqui.
+- Encerre conforme a seção "Transição para a Próxima Etapa".
+
+### Transição para a Próxima Etapa
+
+Depois de entregar os arquivos, encerre a etapa com dois elementos:
+
+1. **Por que a próxima etapa importa:** um parágrafo de 3 a 5 linhas, adaptado ao caso do usuário, a partir deste texto de base:
+   > Com ideia, cliente, proposta de valor e modelo definidos, chega a hora de comunicar. O pitch condensa o que foi construído em discursos de diferentes durações, ajustados ao público (banca, investidor, cliente ou gestor público), e prepara você para as perguntas difíceis. Ele não acrescenta argumentos novos: apresenta com honestidade o que as etapas anteriores sustentam, usando o modelo de receita, as métricas e a vantagem competitiva definidos aqui.
+
+2. **Decisão numerada**, conforme a seção "Decisões do Usuário":
+   1. Seguir para a etapa de pitch (recomendado)
+   2. Testar primeiro a premissa mais crítica do mapa de premissas
+   3. Revisar algo desta etapa
+   4. Parar por agora: o perfil da startup já está salvo, e para retomar basta dizer "preciso preparar o pitch da minha startup"
+   5. Outra: descreva o que prefere
+
+   Responda com o número da opção.
+
+Se a premissa mais crítica tiver apenas suposição como evidência e o pitch não tiver data marcada, coloque em primeiro lugar, como recomendada, a opção de testá-la primeiro.
+
+Se o usuário escolher seguir, inicie a etapa seguinte na mesma conversa, com a skill correspondente.
 
 ## Registro no Perfil da Startup
 

@@ -69,6 +69,29 @@ O objetivo do pitch define a ênfase e o fechamento de cada versão:
 
 Quando o objetivo for um edital específico, peça ao usuário os critérios de avaliação do edital e organize o pitch por eles.
 
+## Decisões do Usuário
+
+Sempre que o usuário precisar escolher entre alternativas (seguir ou revisar, aceitar ou corrigir, escolher versões, formatos ou caminhos), apresente a decisão assim:
+
+- **Botões, quando houver:** se o ambiente oferecer uma ferramenta de perguntas com opções clicáveis, use-a, com as mesmas opções e a mesma numeração da lista.
+- **Lista numerada, sempre:** apresente as opções numeradas (1, 2, 3...), uma por linha, com no máximo cinco opções. Quando houver recomendação, coloque a opção recomendada em primeiro lugar e marque-a com "(recomendado)".
+- **Opção livre:** a última opção é sempre "Outra: descreva o que prefere".
+- **Como responder:** termine com a frase "Responda com o número da opção." Aceite também respostas como "a segunda", o texto da opção ou uma resposta livre.
+- **Uma decisão por vez:** não junte duas decisões na mesma lista. Quando várias perguntas curtas forem feitas na mesma mensagem, numere as perguntas e identifique as opções de cada uma por letras (a, b, c).
+- **Perguntas abertas:** perguntas que pedem uma descrição do usuário (por exemplo, "que dor você observou?") continuam abertas e não recebem opções, salvo quando a skill oferecer exemplos numerados para inspiração.
+
+Exemplo:
+
+> Como você quer seguir?
+> 1. Seguir para a próxima etapa (recomendado)
+> 2. Revisar algo desta etapa
+> 3. Parar por agora
+> 4. Outra: descreva o que prefere
+>
+> Responda com o número da opção.
+
+---
+
 ## Perfil da Startup
 
 Todas as skills da cadeia compartilham o arquivo `perfil-startup.md`.
@@ -88,7 +111,7 @@ Todas as skills da cadeia compartilham o arquivo `perfil-startup.md`.
   | Riscos e pontos fracos | Premissas a testar primeiro e pontos marcados [verificar] |
 
   Resuma em três linhas o que herdou e não repita perguntas já respondidas.
-- **Decisão da etapa 1:** se o campo "Decisão" da seção "Etapa 1: Ideia" for "ajustar" ou "abandonar", avise o usuário antes de começar: "Na etapa 1, a decisão registrada foi [ajustar ou abandonar]. Seguir adiante sem rever a ideia pode construir em cima de uma premissa frágil. Quer revisar a ideia primeiro (startup-ideia) ou seguir mesmo assim?" Respeite a escolha e registre-a no perfil.
+- **Decisão da etapa 1:** se o campo "Decisão" da seção "Etapa 1: Ideia" for "ajustar" ou "abandonar", avise o usuário antes de começar: "Na etapa 1, a decisão registrada foi [ajustar ou abandonar]. Seguir adiante sem rever a ideia pode construir em cima de uma premissa frágil. Como você quer seguir?" Em seguida, apresente as opções numeradas: 1. Revisar a ideia primeiro (recomendado); 2. Seguir mesmo assim; 3. Outra: descreva o que prefere. Responda com o número da opção. Respeite a escolha e registre-a no perfil.
 - Se não houver perfil, aceite o material do usuário (arquivo PDF, apresentação ou texto) e extraia os mesmos itens.
 
 **Pergunte apenas o que nenhuma etapa trabalhou:**
@@ -123,7 +146,12 @@ Apresente o diagnóstico e aguarde a resposta do usuário.
 
 ### Momento 2: Escolha das Versões
 
-Apresente as seis versões disponíveis e recomende as mais adequadas ao objetivo (por exemplo, para um edital com apresentação de 3 minutos: 100 palavras, 1 minuto e 3 minutos). Por padrão, produza as seis. Pergunte também se o usuário quer o deck em slides. Aguarde a escolha.
+Apresente duas decisões, uma após a outra:
+
+1. **Versões:** liste as seis versões numeradas (1. 100 caracteres; 2. 100 palavras; 3. 1 minuto; 4. 2 minutos; 5. 3 minutos; 6. 5 minutos), indique as recomendadas para o objetivo (por exemplo, para um edital com apresentação de 3 minutos: 2, 3 e 5) e peça: "Responda com os números das versões que quer, ou 0 para todas." Por padrão, produza as seis.
+2. **Deck:** 1. Sim, quero o deck em slides (recomendado quando houver apresentação); 2. Não, só os textos; 3. Outra: descreva o que prefere. Responda com o número da opção.
+
+Aguarde a escolha.
 
 ### Momento 3: Entrega e Ensaio
 
@@ -229,7 +257,20 @@ Para cada pergunta, ofereça uma resposta honesta e curta, que reconheça o que 
 - Entregue o deck conforme a seção "Deck de Apresentação".
 - Atualize o `perfil-startup.md`, conforme a seção "Perfil da Startup".
 
-**Fechamento da cadeia:** como esta é a última etapa, termine com uma síntese do percurso em até cinco linhas (da dor identificada à proposta de valor e ao modelo) e com a indicação do que testar a seguir, a partir das premissas no quadrante "testar primeiro". Lembre que a cadeia pode ser percorrida de novo sempre que um experimento trouxer um aprendizado relevante.
+**Fechamento da cadeia e oferta do dossiê:** como esta é a última etapa, a oferta do dossiê é obrigatória. Termine, nesta ordem, com:
+
+1. **Síntese do percurso**, em até cinco linhas: da dor identificada à proposta de valor e ao modelo, e o que testar a seguir, a partir das premissas no quadrante "testar primeiro". Lembre que a cadeia pode ser percorrida de novo sempre que um experimento trouxer um aprendizado relevante.
+2. **Por que o dossiê importa:** um parágrafo de 3 a 5 linhas, adaptado ao caso do usuário, a partir deste texto de base:
+   > O dossiê reúne em um único documento tudo o que a trilha produziu: ideia, persona, proposta de valor, modelo de negócios e pitch, com uma síntese executiva, os experimentos e os pontos a verificar. Antes de montá-lo, a coerência entre as etapas é conferida e as inconsistências são apontadas. Ele serve para anexar a editais, apresentar a orientadores, mentores e parceiros e registrar o ponto em que a startup está.
+3. **Decisão numerada**, conforme a seção "Decisões do Usuário":
+   1. Gerar o dossiê agora, em .md, .docx e .pdf (recomendado)
+   2. Revisar algo do pitch antes
+   3. Gerar o dossiê mais tarde: para isso, basta dizer "quero o dossiê da minha startup"
+   4. Outra: descreva o que prefere
+
+   Responda com o número da opção.
+
+Se o usuário escolher gerar o dossiê, monte-o na mesma conversa, seguindo a seção "Dossiê Consolidado" da skill startup-pipeline.
 
 ## Registro no Perfil da Startup
 

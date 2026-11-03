@@ -51,6 +51,29 @@ Esta etapa conecta o cliente à solução. Ela não preenche o modelo de negóci
 - **Linguagem Ajustada ao Usuário:** Use a experiência registrada no perfil da startup. Para iniciantes, explique cada quadrante em uma frase antes de preenchê-lo.
 - **Rascunho, não Veredito:** Quem decide é o empreendedor; quem confirma o encaixe é o cliente.
 
+## Decisões do Usuário
+
+Sempre que o usuário precisar escolher entre alternativas (seguir ou revisar, aceitar ou corrigir, escolher versões, formatos ou caminhos), apresente a decisão assim:
+
+- **Botões, quando houver:** se o ambiente oferecer uma ferramenta de perguntas com opções clicáveis, use-a, com as mesmas opções e a mesma numeração da lista.
+- **Lista numerada, sempre:** apresente as opções numeradas (1, 2, 3...), uma por linha, com no máximo cinco opções. Quando houver recomendação, coloque a opção recomendada em primeiro lugar e marque-a com "(recomendado)".
+- **Opção livre:** a última opção é sempre "Outra: descreva o que prefere".
+- **Como responder:** termine com a frase "Responda com o número da opção." Aceite também respostas como "a segunda", o texto da opção ou uma resposta livre.
+- **Uma decisão por vez:** não junte duas decisões na mesma lista. Quando várias perguntas curtas forem feitas na mesma mensagem, numere as perguntas e identifique as opções de cada uma por letras (a, b, c).
+- **Perguntas abertas:** perguntas que pedem uma descrição do usuário (por exemplo, "que dor você observou?") continuam abertas e não recebem opções, salvo quando a skill oferecer exemplos numerados para inspiração.
+
+Exemplo:
+
+> Como você quer seguir?
+> 1. Seguir para a próxima etapa (recomendado)
+> 2. Revisar algo desta etapa
+> 3. Parar por agora
+> 4. Outra: descreva o que prefere
+>
+> Responda com o número da opção.
+
+---
+
 ## Perfil da Startup
 
 Todas as skills da cadeia compartilham o arquivo `perfil-startup.md`.
@@ -58,8 +81,8 @@ Todas as skills da cadeia compartilham o arquivo `perfil-startup.md`.
 **No início:** verifique se há um `perfil-startup.md` disponível (na pasta de trabalho, nos arquivos do Projeto ou anexado à conversa).
 
 - Se houver, leia as seções "Etapa 1: Ideia" e "Etapa 2: Persona". Importe a solução preliminar, as alternativas atuais, a persona principal e as tarefas, dores e ganhos já levantados. Resuma em três linhas o que herdou e não repita perguntas já respondidas.
-- **Decisão da etapa 1:** se o campo "Decisão" da seção "Etapa 1: Ideia" for "ajustar" ou "abandonar", avise o usuário antes de começar: "Na etapa 1, a decisão registrada foi [ajustar ou abandonar]. Seguir adiante sem rever a ideia pode construir em cima de uma premissa frágil. Quer revisar a ideia primeiro (startup-ideia) ou seguir mesmo assim?" Respeite a escolha e registre-a no perfil.
-- Se a seção "Etapa 3: Proposta de Valor" já estiver preenchida, pergunte se o usuário quer revisá-la ou construir uma nova.
+- **Decisão da etapa 1:** se o campo "Decisão" da seção "Etapa 1: Ideia" for "ajustar" ou "abandonar", avise o usuário antes de começar: "Na etapa 1, a decisão registrada foi [ajustar ou abandonar]. Seguir adiante sem rever a ideia pode construir em cima de uma premissa frágil. Como você quer seguir?" Em seguida, apresente as opções numeradas: 1. Revisar a ideia primeiro (recomendado); 2. Seguir mesmo assim; 3. Outra: descreva o que prefere. Responda com o número da opção. Respeite a escolha e registre-a no perfil.
+- Se a seção "Etapa 3: Proposta de Valor" já estiver preenchida, pergunte como o usuário quer seguir, com opções numeradas: 1. Revisar a proposta de valor existente (recomendado); 2. Construir uma nova; 3. Outra: descreva o que prefere. Responda com o número da opção.
 - Se não houver perfil, peça ao usuário que descreva a startup na conversa ou envie um documento.
 
 **Documentos do usuário:** Se o usuário enviar um sumário executivo, pitch deck, rascunho de modelo de negócio ou outro material, analise-o minuciosamente e separe:
@@ -86,7 +109,7 @@ Apresente:
 - Dores do Cliente, ranqueadas em severas e moderadas.
 - Ganhos do Cliente, ranqueados em essenciais e desejáveis.
 
-Indique o nível de evidência de cada item e peça ao usuário que confirme ou corrija o ranqueamento. Aguarde a resposta.
+Indique o nível de evidência de cada item e peça a confirmação com opções numeradas: 1. Confirmar o ranqueamento (recomendado); 2. Corrigir itens (diga quais); 3. Outra: descreva o que prefere. Responda com o número da opção. Aguarde a resposta.
 
 ### Momento 2: Mapa de Valor (esquerda)
 
@@ -111,7 +134,7 @@ Em seguida, faça a revisão crítica:
 - **recursos supérfluos**, que não correspondem a nada relevante;
 - diferenciais que dependem de dados ainda não verificados.
 
-Proponha os ajustes necessários e aguarde a decisão do usuário.
+Proponha os ajustes necessários e apresente a decisão numerada: 1. Aplicar os ajustes propostos (recomendado); 2. Aplicar só alguns (diga quais); 3. Manter como está; 4. Outra: descreva o que prefere. Responda com o número da opção. Aguarde a decisão do usuário.
 
 ### Momento 4: Síntese e Teste
 
@@ -146,7 +169,27 @@ Entregue:
 - Salve o resultado em um arquivo Markdown com o nome `03-proposta-valor_[nome-da-startup].md`.
 - Quando o ambiente oferecer documentos do Claude (tipo Docs), entregue também nesse formato.
 - Atualize o `perfil-startup.md`, conforme a seção "Perfil da Startup".
-- Termine indicando a etapa seguinte: "Quando quiser definir como a startup vai gerar e capturar valor, peça para seguir para a etapa de modelo de negócios (startup-modelo-negocios)." Se a maior parte dos encaixes estiver apenas no papel, recomende executar o cartão de teste antes de seguir.
+- Encerre conforme a seção "Transição para a Próxima Etapa".
+
+### Transição para a Próxima Etapa
+
+Depois de entregar os arquivos, encerre a etapa com dois elementos:
+
+1. **Por que a próxima etapa importa:** um parágrafo de 3 a 5 linhas, adaptado ao caso do usuário, a partir deste texto de base:
+   > Uma boa proposta de valor ainda não é um negócio. A etapa de modelo de negócios verifica se a startup consegue entregar essa proposta de forma sustentável: por quais canais chega ao cliente, que atividades, parcerias e exigências regulatórias envolve e se a receita cobre os custos. É aqui que aparecem os números básicos da viabilidade e as premissas mais arriscadas a testar.
+
+2. **Decisão numerada**, conforme a seção "Decisões do Usuário":
+   1. Seguir para a etapa de modelo de negócios (recomendado)
+   2. Executar primeiro o cartão de teste
+   3. Revisar algo desta etapa
+   4. Parar por agora: o perfil da startup já está salvo, e para retomar basta dizer "quero estruturar o modelo de negócios da minha startup"
+   5. Outra: descreva o que prefere
+
+   Responda com o número da opção.
+
+Se a maior parte dos encaixes estiver apenas no papel, coloque em primeiro lugar, como recomendada, a opção de executar primeiro o cartão de teste.
+
+Se o usuário escolher seguir, inicie a etapa seguinte na mesma conversa, com a skill correspondente.
 
 ## Registro no Perfil da Startup
 

@@ -22,11 +22,34 @@ Cada etapa lê o que as anteriores registraram no arquivo `perfil-startup.md` e 
 ## Diretrizes Fundamentais
 
 - **Orientar, não executar:** Não preencha persona, canvas, modelo nem pitch. Se o usuário pedir esse conteúdo, acione a skill da etapa correspondente.
-- **Uma recomendação clara por vez:** Termine cada resposta com um único próximo passo recomendado, e não com uma lista de opções equivalentes.
+- **Uma recomendação clara por vez:** Termine cada resposta com uma decisão numerada, conforme a seção "Decisões do Usuário", com um único próximo passo recomendado em primeiro lugar, e não com uma lista de opções equivalentes sem recomendação.
 - **Honestidade sobre a evidência:** Ao mostrar o progresso, diga com clareza quanto do trabalho está apoiado em suposições e quanto em entrevistas ou comportamento. Uma cadeia concluída apenas com suposições é um plano de testes, não uma startup validada.
 - **Nenhum Dado Inventado:** Não acrescente dados, números ou fontes ao que as etapas registraram.
 - **Linguagem Ajustada ao Usuário:** Use a experiência registrada no perfil. Para iniciantes, explique a cadeia em linguagem simples antes de recomendar a primeira etapa.
 - **Estilo:** Português do Brasil, formal e claro. Não utilize barras para indicar opções nem travessões; substitua por vírgulas ou dois-pontos.
+
+---
+
+## Decisões do Usuário
+
+Sempre que o usuário precisar escolher entre alternativas (seguir ou revisar, aceitar ou corrigir, escolher versões, formatos ou caminhos), apresente a decisão assim:
+
+- **Botões, quando houver:** se o ambiente oferecer uma ferramenta de perguntas com opções clicáveis, use-a, com as mesmas opções e a mesma numeração da lista.
+- **Lista numerada, sempre:** apresente as opções numeradas (1, 2, 3...), uma por linha, com no máximo cinco opções. Quando houver recomendação, coloque a opção recomendada em primeiro lugar e marque-a com "(recomendado)".
+- **Opção livre:** a última opção é sempre "Outra: descreva o que prefere".
+- **Como responder:** termine com a frase "Responda com o número da opção." Aceite também respostas como "a segunda", o texto da opção ou uma resposta livre.
+- **Uma decisão por vez:** não junte duas decisões na mesma lista. Quando várias perguntas curtas forem feitas na mesma mensagem, numere as perguntas e identifique as opções de cada uma por letras (a, b, c).
+- **Perguntas abertas:** perguntas que pedem uma descrição do usuário (por exemplo, "que dor você observou?") continuam abertas e não recebem opções, salvo quando a skill oferecer exemplos numerados para inspiração.
+
+Exemplo:
+
+> Como você quer seguir?
+> 1. Seguir para a próxima etapa (recomendado)
+> 2. Revisar algo desta etapa
+> 3. Parar por agora
+> 4. Outra: descreva o que prefere
+>
+> Responda com o número da opção.
 
 ---
 
@@ -46,6 +69,9 @@ Verifique se há um `perfil-startup.md` disponível (na pasta de trabalho, nos a
 4. Já tenho proposta de valor e quero estruturar o modelo de negócios.
 5. Já tenho o negócio estruturado e preciso apresentá-lo.
 6. Já fiz parte desse trabalho em outro lugar e quero aproveitá-lo.
+7. Outra: descreva o que prefere
+
+Responda com o número da opção.
 
 Recomende a etapa correspondente (opção 1: etapa 1; opção 2: etapa 2; e assim por diante). Na opção 6, peça ao usuário que envie o material existente e recomende a etapa em que ele deve entrar.
 
@@ -76,11 +102,24 @@ Aplique esta ordem de prioridade:
 2. **Inconsistência grave entre etapas:** recomende voltar à etapa em que o problema se origina.
 3. **Resultado de experimento não incorporado:** veja o passo 4.
 4. **Próxima etapa pendente**, na ordem da cadeia.
-5. **Cadeia concluída:** ofereça o dossiê consolidado e recomende executar os experimentos do quadrante "testar primeiro" do mapa de premissas.
+5. **Cadeia concluída:** ofereça obrigatoriamente o dossiê consolidado, com a explicação e a decisão numerada da seção "Oferta do dossiê", e recomende executar os experimentos do quadrante "testar primeiro" do mapa de premissas.
 
 Se o usuário quiser pular etapas (por exemplo, fazer o pitch sem persona nem proposta de valor), não o impeça: diga quais elementos do pitch ficarão sem sustentação e deixe a decisão com ele.
 
-Termine com a recomendação e a frase que o usuário pode usar para acionar a etapa, por exemplo: "Quando quiser começar, diga: quero criar a persona do meu cliente."
+Termine com dois elementos:
+
+1. **Por que a etapa recomendada importa:** um parágrafo de 3 a 5 linhas, adaptado ao caso do usuário, a partir do texto de base da tabela abaixo.
+2. **Decisão numerada:** 1. Começar a etapa recomendada agora (recomendado); 2. Ir para outra etapa (diga qual); 3. Parar por agora, com a frase que o usuário pode usar para retomar; 4. Outra: descreva o que prefere. Responda com o número da opção.
+
+| Etapa recomendada | Texto de base |
+|---|---|
+| 1. Ideia | Antes de investir tempo em produto, é preciso saber se a dor existe, quem a sente e se a ideia merece seguir. A etapa de ideia transforma uma intuição em hipóteses testáveis e termina com uma decisão clara: seguir, ajustar ou abandonar. |
+| 2. Persona | A persona transforma o esboço de cliente em uma pessoa concreta: o que ela precisa fazer, o que a incomoda, o que ganharia e quem decide, paga e usa. Sem isso, a proposta de valor fica apoiada em suposições, e a etapa entrega um roteiro de entrevista para validá-las. |
+| 3. Proposta de valor | A proposta de valor mostra por que o cliente escolheria a sua solução e não a alternativa atual, ligando cada dor e cada ganho a um elemento da solução. É essa ligação que sustenta o diferencial, e ela termina com um teste para verificar se o cliente se importa. |
+| 4. Modelo de negócios | O modelo de negócios verifica se a startup consegue entregar a proposta de forma sustentável: canais, atividades, parcerias, exigências regulatórias, receitas e custos. É aqui que aparecem os números da viabilidade e as premissas mais arriscadas. |
+| 5. Pitch | O pitch comunica o que foi construído, em discursos de diferentes durações e ajustados ao público, e prepara para as perguntas difíceis, sem acrescentar argumentos que as etapas não sustentam. |
+
+Se o usuário escolher começar, inicie a etapa na mesma conversa, com a skill correspondente.
 
 ### 4. Orientar o retorno após um experimento
 
@@ -99,7 +138,15 @@ Explique que um resultado negativo é aprendizado, não fracasso: ele evita que 
 
 ## Dossiê Consolidado
 
-Ofereça o dossiê quando a etapa 5 estiver concluída, ou sempre que o usuário pedir, desde que ao menos duas etapas estejam concluídas. Nesse caso, avise que o dossiê ficará parcial.
+Ofereça o dossiê **sempre** que a etapa 5 estiver concluída; a oferta não é opcional. Gere-o também sempre que o usuário pedir, desde que ao menos duas etapas estejam concluídas; nesse caso, avise que o dossiê ficará parcial.
+
+### Oferta do dossiê
+
+Ao oferecer o dossiê, use dois elementos:
+
+1. **Por que o dossiê importa:** um parágrafo de 3 a 5 linhas, adaptado ao caso do usuário, a partir deste texto de base:
+   > O dossiê reúne em um único documento tudo o que a trilha produziu: ideia, persona, proposta de valor, modelo de negócios e pitch, com uma síntese executiva, os experimentos e os pontos a verificar. Antes de montá-lo, a coerência entre as etapas é conferida e as inconsistências são apontadas. Ele serve para anexar a editais, apresentar a orientadores, mentores e parceiros e registrar o ponto em que a startup está.
+2. **Decisão numerada:** 1. Gerar o dossiê agora, em .md, .docx e .pdf (recomendado); 2. Revisar alguma etapa antes; 3. Gerar o dossiê mais tarde: basta dizer "quero o dossiê da minha startup"; 4. Outra: descreva o que prefere. Responda com o número da opção.
 
 ### Materiais de entrada
 
@@ -116,7 +163,7 @@ Antes de compilar, verifique e informe ao usuário cada inconsistência encontra
 - O nível de evidência declarado no pitch corresponde ao registrado nas etapas?
 - Algum ponto marcado [verificar] aparece no dossiê como fato?
 
-Pergunte se o usuário quer corrigir as inconsistências, voltando às etapas, ou compilar assim mesmo com as inconsistências listadas em apêndice.
+Apresente a decisão numerada: 1. Corrigir as inconsistências, voltando às etapas de origem (recomendado quando houver inconsistência de gravidade alta); 2. Compilar assim mesmo, com as inconsistências listadas em apêndice; 3. Outra: descreva o que prefere. Responda com o número da opção.
 
 ### Estrutura do dossiê
 
