@@ -26,6 +26,53 @@ Os elementos de cliente, solução e monetização tratados aqui são **hipótes
 - **Nenhum Dado Inventado:** Nunca apresente tamanho de mercado, estatística, nome de concorrente, preço ou qualquer dado factual sem fonte verificável. Se a ferramenta de busca estiver disponível, pesquise e cite a fonte; se não estiver, ou se a informação não for confirmada, marque-a com **[verificar]** e diga ao usuário como confirmá-la. Exemplos ilustrativos devem ser apresentados como ilustrativos.
 - **Rascunho, não Veredito:** Tudo o que a skill produz é material de trabalho. Quem decide é o empreendedor.
 
+## Indicadores de Progresso
+
+A trilha usa dois indicadores, sempre em texto simples, sem símbolos gráficos.
+
+**Progresso:** a trilha tem 5 etapas e 21 passos ao todo.
+
+| Etapa | Skill | Fases ou momentos | Passos da trilha |
+|---|---|---|---|
+| 1. Ideia | startup-ideia | 7 fases (0 a 6) | 1 a 7 |
+| 2. Persona | startup-persona | 3 momentos | 8 a 10 |
+| 3. Proposta de valor | startup-proposta-valor | 4 momentos | 11 a 14 |
+| 4. Modelo de negócios | startup-modelo-negocios | 4 momentos | 15 a 18 |
+| 5. Pitch | startup-pitch | 3 momentos | 19 a 21 |
+
+Nesta skill (etapa 1 de 5, Ideia), os passos são 1 a 7: Fase 0 = passo 1, Fase 1 = passo 2, Fase 2 = passo 3, Fase 3 = passo 4, Fase 4 = passo 5, Fase 5 = passo 6, Fase 6 = passo 7. Na linha de progresso, conte as fases de 1 a 7, e não de 0 a 6: a Fase 0 aparece como "fase 1 de 7 (Contexto)", a Fase 1 como "fase 2 de 7 (Dor do cliente)", e assim por diante. Se a Fase 0 for pulada porque já existe perfil, conte o passo 1 como concluído.
+
+**Linha de progresso:** no início de cada fase, antes do conteúdo, escreva uma linha neste formato, em negrito apenas no nome da trilha:
+
+> **Trilha Startup:** etapa 1 de 5 (Ideia), fase [n] de [total] ([nome do fase]), passo [n] de 21.
+
+Não repita a linha nas mensagens que apenas continuam o mesmo fase.
+
+**Maturidade da evidência** (segundo indicador): mostra quanto do que foi construído se apoia em evidência, e não apenas em suposição. Calcule-a a partir do nível de evidência registrado no cabeçalho do perfil para cada etapa concluída, usando o nível que mais aparece (em caso de empate, o mais baixo):
+
+| Nível predominante | Maturidade | Frase de apoio |
+|---|---|---|
+| Suposição | Baixa | A maior parte do que foi construído ainda é hipótese a testar. |
+| Relatos | Inicial | Há relatos que sustentam parte do trabalho, mas nenhuma verificação sistemática. |
+| Entrevistas | Intermediária | Parte importante se apoia em entrevistas com potenciais clientes. |
+| Comportamento | Alta | Há dados de uso, pré-venda ou pagamento sustentando o modelo. |
+
+Deixe claro ao usuário que progresso e maturidade são coisas diferentes: concluir as etapas não significa ter validado a startup.
+
+**Painel da trilha:** na transição para a próxima etapa, mostre o painel abaixo antes da explicação sobre a próxima etapa:
+
+| Etapa | Situação | Evidência |
+|---|---|---|
+| 1. Ideia | [concluída, próxima ou pendente] | [nível, se concluída] |
+| 2. Persona | | |
+| 3. Proposta de valor | | |
+| 4. Modelo de negócios | | |
+| 5. Pitch | | |
+
+> **Progresso:** [n] de 5 etapas ([n] de 21 passos). **Maturidade da evidência:** [nível], [frase de apoio].
+
+---
+
 ## Decisões do Usuário
 
 Sempre que o usuário precisar escolher entre alternativas (seguir ou revisar, aceitar ou corrigir, escolher versões, formatos ou caminhos), apresente a decisão assim:
@@ -167,8 +214,9 @@ Entregue o artefato em um único documento com quatro partes:
 
 ### Transição para a Próxima Etapa
 
-Depois de entregar os arquivos, encerre a etapa com dois elementos:
+Depois de entregar os arquivos, encerre a etapa com três elementos:
 
+0. **Painel da trilha**, conforme a seção "Indicadores de Progresso", já com esta etapa marcada como concluída.
 1. **Por que a próxima etapa importa:** um parágrafo de 3 a 5 linhas, adaptado ao caso do usuário, a partir deste texto de base:
    > Até aqui, o cliente é um esboço. A etapa de persona transforma esse esboço em uma pessoa concreta: o que ela precisa fazer, o que a incomoda, o que ela ganharia e quem decide, paga e usa. Sem isso, a proposta de valor e o modelo de negócios ficam apoiados em suposições sobre alguém que você ainda não conhece bem. A etapa termina com um roteiro de entrevista para verificar se o cliente que você imaginou existe.
 
@@ -191,7 +239,7 @@ Se o usuário escolher seguir, inicie a etapa seguinte na mesma conversa, com a 
 
 **Modelo comum:** a estrutura completa do perfil está no arquivo `references/modelo-perfil-startup.md`, que acompanha esta skill. Se o perfil ainda não existir, crie-o a partir desse modelo. Se o arquivo do modelo não estiver acessível, crie o perfil com o cabeçalho, a seção "Empreendedor", o bloco abaixo, as seções das Etapas 2 a 5 com a palavra "pendente" e as seções "Registro de Experimentos" e "Pontos marcados [verificar]".
 
-Preencha a seção "Empreendedor" com as respostas da Fase 0 e a seção "Etapa 1: Ideia" com esta estrutura, atualizando no cabeçalho a data e a última etapa concluída:
+Preencha a seção "Empreendedor" com as respostas da Fase 0 e a seção "Etapa 1: Ideia" com esta estrutura, atualizando no cabeçalho a data, a última etapa concluída, o progresso (etapas concluídas e "passo 7 de 21") e, no campo "Evidência por etapa", o nível desta etapa, definido como o nível predominante entre os três pilares do scorecard, e recalcule a maturidade da evidência conforme a seção "Indicadores de Progresso":
 
 ```markdown
 ## Etapa 1: Ideia

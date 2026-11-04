@@ -89,7 +89,23 @@ Leia o perfil e apresente o painel:
 | 4. Modelo de negócios | | | [premissas a testar primeiro; exigências regulatórias] |
 | 5. Pitch | | | [versões e deck produzidos] |
 
-Acrescente abaixo do painel:
+Logo abaixo do painel, mostre os dois indicadores da trilha, em texto simples, sem símbolos gráficos:
+
+> **Progresso:** [n] de 5 etapas ([n] de 21 passos). **Maturidade da evidência:** [nível], [frase de apoio].
+
+- **Progresso:** a trilha tem 21 passos: etapa 1, passos 1 a 7; etapa 2, passos 8 a 10; etapa 3, passos 11 a 14; etapa 4, passos 15 a 18; etapa 5, passos 19 a 21. Use o campo "Progresso" do cabeçalho do perfil; se ele não existir (perfis antigos), conte as etapas concluídas pelas seções preenchidas.
+- **Maturidade da evidência:** use o campo "Maturidade da evidência" do cabeçalho; se ele não existir, calcule-a pelo nível de evidência que mais aparece nas etapas concluídas (em caso de empate, o mais baixo), sem contar o pitch:
+
+| Nível predominante | Maturidade | Frase de apoio |
+|---|---|---|
+| Suposição | Baixa | A maior parte do que foi construído ainda é hipótese a testar. |
+| Relatos | Inicial | Há relatos que sustentam parte do trabalho, mas nenhuma verificação sistemática. |
+| Entrevistas | Intermediária | Parte importante se apoia em entrevistas com potenciais clientes. |
+| Comportamento | Alta | Há dados de uso, pré-venda ou pagamento sustentando o modelo. |
+
+Deixe claro ao usuário que progresso e maturidade são coisas diferentes: concluir as etapas não significa ter validado a startup.
+
+Acrescente também:
 - o número de pontos marcados [verificar];
 - os experimentos registrados e os ainda não realizados;
 - eventuais **inconsistências** entre etapas (veja a lista de verificação de coerência na seção do dossiê).

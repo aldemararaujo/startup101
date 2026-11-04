@@ -10,6 +10,7 @@ Este é o modelo único do arquivo `perfil-startup.md`, compartilhado pelas seis
 - Campos sem informação ficam em branco ou com "pendente"; nunca são preenchidos com suposições não identificadas.
 - Todo dado não confirmado recebe a marcação [verificar] e é listado na última seção.
 - Os níveis de evidência usados em todas as seções são: suposição, relatos, entrevistas ou comportamento.
+- Os campos de progresso e de maturidade do cabeçalho são atualizados pela skill que conclui cada etapa, cada um em sua própria linha, exatamente como no modelo, sem barras: quando houver mais de um nível em uma etapa, registre o predominante e, se quiser, o outro entre parênteses (por exemplo, "Ideia suposição (relatos na dor)"). Perfis criados antes desses campos continuam válidos: a skill os acrescenta na primeira atualização.
 
 ## Estrutura
 
@@ -17,6 +18,10 @@ Este é o modelo único do arquivo `perfil-startup.md`, compartilhado pelas seis
 # Perfil da Startup: [nome provisório]
 
 Atualizado em: [data] | Última etapa concluída: [número], [nome]
+
+Progresso: [n] de 5 etapas; passo [n] de 21
+Evidência por etapa: Ideia [nível]; Persona [nível]; Proposta de valor [nível]; Modelo de negócios [nível]; Pitch não se aplica
+Maturidade da evidência: [baixa, inicial, intermediária ou alta]
 
 ## Empreendedor
 - Área de atuação:

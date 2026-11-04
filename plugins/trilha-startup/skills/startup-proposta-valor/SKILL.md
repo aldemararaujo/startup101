@@ -51,6 +51,53 @@ Esta etapa conecta o cliente à solução. Ela não preenche o modelo de negóci
 - **Linguagem Ajustada ao Usuário:** Use a experiência registrada no perfil da startup. Para iniciantes, explique cada quadrante em uma frase antes de preenchê-lo.
 - **Rascunho, não Veredito:** Quem decide é o empreendedor; quem confirma o encaixe é o cliente.
 
+## Indicadores de Progresso
+
+A trilha usa dois indicadores, sempre em texto simples, sem símbolos gráficos.
+
+**Progresso:** a trilha tem 5 etapas e 21 passos ao todo.
+
+| Etapa | Skill | Fases ou momentos | Passos da trilha |
+|---|---|---|---|
+| 1. Ideia | startup-ideia | 7 fases (0 a 6) | 1 a 7 |
+| 2. Persona | startup-persona | 3 momentos | 8 a 10 |
+| 3. Proposta de valor | startup-proposta-valor | 4 momentos | 11 a 14 |
+| 4. Modelo de negócios | startup-modelo-negocios | 4 momentos | 15 a 18 |
+| 5. Pitch | startup-pitch | 3 momentos | 19 a 21 |
+
+Nesta skill (etapa 3 de 5, Proposta de valor), os passos são 11 a 14: Momento 1 = passo 11, Momento 2 = passo 12, Momento 3 = passo 13, Momento 4 = passo 14.
+
+**Linha de progresso:** no início de cada momento, antes do conteúdo, escreva uma linha neste formato, em negrito apenas no nome da trilha:
+
+> **Trilha Startup:** etapa 3 de 5 (Proposta de valor), momento [n] de [total] ([nome do momento]), passo [n] de 21.
+
+Não repita a linha nas mensagens que apenas continuam o mesmo momento.
+
+**Maturidade da evidência** (segundo indicador): mostra quanto do que foi construído se apoia em evidência, e não apenas em suposição. Calcule-a a partir do nível de evidência registrado no cabeçalho do perfil para cada etapa concluída, usando o nível que mais aparece (em caso de empate, o mais baixo):
+
+| Nível predominante | Maturidade | Frase de apoio |
+|---|---|---|
+| Suposição | Baixa | A maior parte do que foi construído ainda é hipótese a testar. |
+| Relatos | Inicial | Há relatos que sustentam parte do trabalho, mas nenhuma verificação sistemática. |
+| Entrevistas | Intermediária | Parte importante se apoia em entrevistas com potenciais clientes. |
+| Comportamento | Alta | Há dados de uso, pré-venda ou pagamento sustentando o modelo. |
+
+Deixe claro ao usuário que progresso e maturidade são coisas diferentes: concluir as etapas não significa ter validado a startup.
+
+**Painel da trilha:** na transição para a próxima etapa, mostre o painel abaixo antes da explicação sobre a próxima etapa:
+
+| Etapa | Situação | Evidência |
+|---|---|---|
+| 1. Ideia | [concluída, próxima ou pendente] | [nível, se concluída] |
+| 2. Persona | | |
+| 3. Proposta de valor | | |
+| 4. Modelo de negócios | | |
+| 5. Pitch | | |
+
+> **Progresso:** [n] de 5 etapas ([n] de 21 passos). **Maturidade da evidência:** [nível], [frase de apoio].
+
+---
+
 ## Decisões do Usuário
 
 Sempre que o usuário precisar escolher entre alternativas (seguir ou revisar, aceitar ou corrigir, escolher versões, formatos ou caminhos), apresente a decisão assim:
@@ -173,8 +220,9 @@ Entregue:
 
 ### Transição para a Próxima Etapa
 
-Depois de entregar os arquivos, encerre a etapa com dois elementos:
+Depois de entregar os arquivos, encerre a etapa com três elementos:
 
+0. **Painel da trilha**, conforme a seção "Indicadores de Progresso", já com esta etapa marcada como concluída.
 1. **Por que a próxima etapa importa:** um parágrafo de 3 a 5 linhas, adaptado ao caso do usuário, a partir deste texto de base:
    > Uma boa proposta de valor ainda não é um negócio. A etapa de modelo de negócios verifica se a startup consegue entregar essa proposta de forma sustentável: por quais canais chega ao cliente, que atividades, parcerias e exigências regulatórias envolve e se a receita cobre os custos. É aqui que aparecem os números básicos da viabilidade e as premissas mais arriscadas a testar.
 
@@ -193,7 +241,7 @@ Se o usuário escolher seguir, inicie a etapa seguinte na mesma conversa, com a 
 
 ## Registro no Perfil da Startup
 
-Substitua o conteúdo "pendente" da seção "Etapa 3: Proposta de Valor" por esta estrutura, e atualize no cabeçalho a data e a última etapa concluída:
+Substitua o conteúdo "pendente" da seção "Etapa 3: Proposta de Valor" por esta estrutura, e atualize no cabeçalho a data, a última etapa concluída, o progresso (etapas concluídas e "passo 14 de 21") e, no campo "Evidência por etapa", o nível desta etapa, definido como o nível de evidência predominante na matriz de encaixe, e recalcule a maturidade da evidência conforme a seção "Indicadores de Progresso":
 
 ```markdown
 ## Etapa 3: Proposta de Valor

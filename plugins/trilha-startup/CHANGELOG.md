@@ -2,6 +2,16 @@
 
 Este arquivo registra as mudanças de cada versão do plugin Trilha Startup. A numeração segue o padrão MAIOR.MENOR.CORREÇÃO: correções de texto aumentam o último número; novos recursos, o do meio; mudanças que alteram o formato do perfil da startup, o primeiro.
 
+## 1.2.0 (2026-11-04)
+
+Indicadores de progresso e de maturidade.
+
+- Todas as etapas: linha de progresso em texto no início de cada fase ou momento (etapa, fase ou momento e passo, de 21 passos na trilha).
+- Transições entre etapas e fechamento do pitch: painel da trilha com a situação e a evidência de cada etapa, o progresso e a maturidade da evidência.
+- Novo indicador de maturidade da evidência (baixa, inicial, intermediária ou alta), calculado pelo nível de evidência predominante das etapas concluídas, distinguindo percorrer a trilha de validar a startup.
+- `startup-pipeline`: os dois indicadores no painel de progresso, com cálculo de reserva para perfis antigos.
+- Perfil da startup: três campos novos no cabeçalho (progresso, evidência por etapa e maturidade), compatíveis com perfis anteriores.
+
 ## 1.1.0 (2026-11-03)
 
 Melhorias de usabilidade em todo o conjunto.

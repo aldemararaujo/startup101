@@ -69,6 +69,53 @@ O objetivo do pitch define a ênfase e o fechamento de cada versão:
 
 Quando o objetivo for um edital específico, peça ao usuário os critérios de avaliação do edital e organize o pitch por eles.
 
+## Indicadores de Progresso
+
+A trilha usa dois indicadores, sempre em texto simples, sem símbolos gráficos.
+
+**Progresso:** a trilha tem 5 etapas e 21 passos ao todo.
+
+| Etapa | Skill | Fases ou momentos | Passos da trilha |
+|---|---|---|---|
+| 1. Ideia | startup-ideia | 7 fases (0 a 6) | 1 a 7 |
+| 2. Persona | startup-persona | 3 momentos | 8 a 10 |
+| 3. Proposta de valor | startup-proposta-valor | 4 momentos | 11 a 14 |
+| 4. Modelo de negócios | startup-modelo-negocios | 4 momentos | 15 a 18 |
+| 5. Pitch | startup-pitch | 3 momentos | 19 a 21 |
+
+Nesta skill (etapa 5 de 5, Pitch), os passos são 19 a 21: Momento 1 = passo 19, Momento 2 = passo 20, Momento 3 = passo 21.
+
+**Linha de progresso:** no início de cada momento, antes do conteúdo, escreva uma linha neste formato, em negrito apenas no nome da trilha:
+
+> **Trilha Startup:** etapa 5 de 5 (Pitch), momento [n] de [total] ([nome do momento]), passo [n] de 21.
+
+Não repita a linha nas mensagens que apenas continuam o mesmo momento.
+
+**Maturidade da evidência** (segundo indicador): mostra quanto do que foi construído se apoia em evidência, e não apenas em suposição. Calcule-a a partir do nível de evidência registrado no cabeçalho do perfil para cada etapa concluída, usando o nível que mais aparece (em caso de empate, o mais baixo):
+
+| Nível predominante | Maturidade | Frase de apoio |
+|---|---|---|
+| Suposição | Baixa | A maior parte do que foi construído ainda é hipótese a testar. |
+| Relatos | Inicial | Há relatos que sustentam parte do trabalho, mas nenhuma verificação sistemática. |
+| Entrevistas | Intermediária | Parte importante se apoia em entrevistas com potenciais clientes. |
+| Comportamento | Alta | Há dados de uso, pré-venda ou pagamento sustentando o modelo. |
+
+Deixe claro ao usuário que progresso e maturidade são coisas diferentes: concluir as etapas não significa ter validado a startup.
+
+**Painel da trilha:** na transição para a próxima etapa, mostre o painel abaixo antes da explicação sobre a próxima etapa:
+
+| Etapa | Situação | Evidência |
+|---|---|---|
+| 1. Ideia | [concluída, próxima ou pendente] | [nível, se concluída] |
+| 2. Persona | | |
+| 3. Proposta de valor | | |
+| 4. Modelo de negócios | | |
+| 5. Pitch | | |
+
+> **Progresso:** [n] de 5 etapas ([n] de 21 passos). **Maturidade da evidência:** [nível], [frase de apoio].
+
+---
+
 ## Decisões do Usuário
 
 Sempre que o usuário precisar escolher entre alternativas (seguir ou revisar, aceitar ou corrigir, escolher versões, formatos ou caminhos), apresente a decisão assim:
@@ -259,6 +306,7 @@ Para cada pergunta, ofereça uma resposta honesta e curta, que reconheça o que 
 
 **Fechamento da cadeia e oferta do dossiê:** como esta é a última etapa, a oferta do dossiê é obrigatória. Termine, nesta ordem, com:
 
+0. **Painel da trilha**, conforme a seção "Indicadores de Progresso", com as cinco etapas concluídas (5 de 5 etapas, 21 de 21 passos) e a maturidade da evidência. Se a maturidade for baixa ou inicial, diga em uma frase que a trilha foi percorrida, mas a startup ainda não foi validada.
 1. **Síntese do percurso**, em até cinco linhas: da dor identificada à proposta de valor e ao modelo, e o que testar a seguir, a partir das premissas no quadrante "testar primeiro". Lembre que a cadeia pode ser percorrida de novo sempre que um experimento trouxer um aprendizado relevante.
 2. **Por que o dossiê importa:** um parágrafo de 3 a 5 linhas, adaptado ao caso do usuário, a partir deste texto de base:
    > O dossiê reúne em um único documento tudo o que a trilha produziu: ideia, persona, proposta de valor, modelo de negócios e pitch, com uma síntese executiva, os experimentos e os pontos a verificar. Antes de montá-lo, a coerência entre as etapas é conferida e as inconsistências são apontadas. Ele serve para anexar a editais, apresentar a orientadores, mentores e parceiros e registrar o ponto em que a startup está.
@@ -274,7 +322,7 @@ Se o usuário escolher gerar o dossiê, monte-o na mesma conversa, seguindo a se
 
 ## Registro no Perfil da Startup
 
-Substitua o conteúdo "pendente" da seção "Etapa 5: Pitch" por esta estrutura, e atualize no cabeçalho a data e a última etapa concluída:
+Substitua o conteúdo "pendente" da seção "Etapa 5: Pitch" por esta estrutura, e atualize no cabeçalho a data, a última etapa concluída, o progresso (etapas concluídas e "passo 21 de 21") e, no campo "Evidência por etapa", registre "Pitch: não se aplica", porque o pitch comunica a evidência das etapas anteriores sem produzir evidência própria, e recalcule a maturidade da evidência conforme a seção "Indicadores de Progresso":
 
 ```markdown
 ## Etapa 5: Pitch
