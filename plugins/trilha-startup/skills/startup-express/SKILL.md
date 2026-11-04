@@ -1,6 +1,6 @@
 ---
 name: startup-express
-description: Versão rápida da trilha de startups, em 4 passos e cerca de 10 a 15 minutos. Transforma uma ideia em um esboço honesto: dor, cliente e solução em três perguntas, diagnóstico rápido de viabilidade, pitch de 1 minuto com frase de 100 caracteres e o Cartão da Startup de uma página. Use sempre que o usuário pedir a "versão rápida", "versão express", "versão light" ou "trilha rápida", disser que tem pouco tempo ("tenho 15 minutos", "quero algo rápido"), quiser uma demonstração do plugin, ou quando um professor quiser usar a trilha em uma aula ou oficina curta. NÃO substitui a trilha completa: não constrói persona, proposta de valor nem modelo de negócios (startup-persona, startup-proposta-valor, startup-modelo-negocios) e não produz o dossiê; para isso, a trilha completa começa em startup-ideia.
+description: Versão rápida da trilha de startups, em 4 passos e cerca de 10 a 15 minutos. Transforma uma ideia em um esboço honesto: formação do usuário, dor, cliente e solução em perguntas curtas com opções numeradas, diagnóstico rápido de viabilidade, pitch de 1 minuto com frase de 100 caracteres e o Cartão da Startup de uma página. Use sempre que o usuário pedir a "versão rápida", "versão express", "versão light" ou "trilha rápida", disser que tem pouco tempo ("tenho 15 minutos", "quero algo rápido"), quiser uma demonstração do plugin, ou quando um professor quiser usar a trilha em uma aula ou oficina curta. NÃO substitui a trilha completa: não constrói persona, proposta de valor nem modelo de negócios (startup-persona, startup-proposta-valor, startup-modelo-negocios) e não produz o dossiê; para isso, a trilha completa começa em startup-ideia.
 ---
 
 # Trilha Startup Express
@@ -11,7 +11,7 @@ Você conduz a versão rápida da Trilha Startup. Em 4 passos, o usuário sai co
 
 | Passo | O que acontece | Entrega |
 |---|---|---|
-| 1. A ideia em três perguntas | Dor, quem sofre com ela e a solução, uma pergunta por vez | Dor, cliente e solução definidos |
+| 1. A ideia em poucas perguntas | Formação ou trabalho, dor, quem sofre com ela, o que fazem hoje e a solução, uma pergunta por vez, sempre com opções numeradas | Dor, cliente e solução definidos |
 | 2. Diagnóstico rápido | Scorecard dos três pilares e premissa de maior risco | Tabela curta e premissa de maior risco |
 | 3. Pitch | Pitch de 1 minuto e frase de 100 caracteres | Os dois textos, com contagem |
 | 4. Cartão da Startup | Resumo de uma página e convite para a trilha completa | Cartão em Markdown e documento do Claude |
@@ -45,7 +45,7 @@ Sempre que o usuário precisar escolher entre alternativas (seguir ou revisar, a
 - **Opção livre:** a última opção é sempre "Outra: descreva o que prefere".
 - **Como responder:** termine com a frase "Responda com o número da opção." Aceite também respostas como "a segunda", o texto da opção ou uma resposta livre.
 - **Uma decisão por vez:** não junte duas decisões na mesma lista. Quando várias perguntas curtas forem feitas na mesma mensagem, numere as perguntas e identifique as opções de cada uma por letras (a, b, c).
-- **Perguntas abertas:** perguntas que pedem uma descrição do usuário (por exemplo, "que dor você observou?") continuam abertas e não recebem opções, salvo quando a skill oferecer exemplos numerados para inspiração.
+- **Sempre com opções, nesta skill:** na versão rápida, toda pergunta traz opções numeradas, inclusive as que pedem uma descrição (a dor, quem sofre com ela, a solução). Ofereça de 3 a 4 sugestões concretas, adaptadas à formação ou ao trabalho do usuário e às respostas anteriores, e termine sempre com a última opção "Outra: digite a sua ideia", para quem tiver algo diferente. Se o usuário digitar uma resposta própria, aceite-a sem pedir que escolha um número.
 
 Exemplo:
 
@@ -70,8 +70,9 @@ A versão rápida grava o mesmo arquivo `perfil-startup.md` usado pela trilha co
 
 **No final:** crie o perfil a partir do modelo comum `references/modelo-perfil-startup.md`, que acompanha esta skill, preenchendo:
 
+- na seção "Empreendedor": a área de atuação ou formação informada na pergunta 0, deixando os demais campos como "pendente";
 - no cabeçalho: a data; "Última etapa concluída: versão rápida"; "Progresso: 0 de 5 etapas da trilha completa; versão rápida concluída"; "Evidência por etapa: Ideia [nível predominante do scorecard]"; e a maturidade da evidência;
-- na seção "Etapa 1: Ideia": a dor, o público-alvo preliminar, a solução preliminar, as alternativas atuais (se mencionadas), o scorecard e a premissa de maior risco, acrescentando a linha "- Origem: versão rápida (startup-express); campos ainda pendentes: contexto do empreendedor, hipóteses testáveis com critérios de refutação, decisão e primeiro experimento detalhado";
+- na seção "Etapa 1: Ideia": a dor, o público-alvo preliminar, a solução preliminar, as alternativas atuais (se mencionadas), o scorecard e a premissa de maior risco, acrescentando a linha "- Origem: versão rápida (startup-express); campos ainda pendentes: experiência com empreendedorismo e recursos disponíveis, hipóteses testáveis com critérios de refutação, decisão e primeiro experimento detalhado";
 - a seção "Versão Rápida", com o pitch de 100 caracteres, o pitch de 1 minuto e o nome do arquivo do Cartão;
 - as demais seções com a palavra "pendente".
 
@@ -81,13 +82,23 @@ Se o modelo comum não estiver acessível, crie o perfil com essas mesmas seçõ
 
 ## Fluxo
 
-### Passo 1: A ideia em três perguntas
+### Passo 1: A ideia em poucas perguntas
 
-Abra com uma frase: "Em 4 passos rápidos, vamos transformar a sua ideia em um esboço honesto e em um pitch de 1 minuto." Depois, faça as três perguntas, **uma por vez**, aguardando cada resposta:
+Abra com uma frase: "Em 4 passos rápidos, vamos transformar a sua ideia em um esboço honesto e em um pitch de 1 minuto." Depois, faça as perguntas abaixo, **uma por vez**, aguardando cada resposta. Toda pergunta segue a regra "Sempre com opções, nesta skill".
 
-1. **A dor:** "Que problema você quer resolver? Pense em algo específico, frequente e incômodo o bastante para alguém querer mudar." Se o usuário não souber por onde começar, ofereça 3 exemplos numerados de problemas na área dele, se ela for conhecida, e a opção de descrever o próprio.
-2. **Quem sofre com ela:** "Quem sente mais esse problema? Descreva essa pessoa ou organização em uma ou duas frases." Pergunte também, em uma linha, como o usuário sabe que a dor existe, com opções por letra: a) vivi ou vejo isso de perto; b) ouvi de outras pessoas; c) fiz entrevistas ou pesquisa; d) tenho dados de uso ou de vendas.
-3. **A solução:** "Como você pretende resolver isso, e o que essas pessoas fazem hoje no lugar?"
+0. **Formação ou trabalho**, antes de tudo, para direcionar as sugestões: "Para eu sugerir ideias da sua realidade, qual é a sua formação ou o seu trabalho?"
+   1. Saúde (medicina, enfermagem, fisioterapia, odontologia, farmácia, nutrição e afins)
+   2. Tecnologia e engenharia
+   3. Educação
+   4. Negócios, gestão ou direito
+   5. Outra: digite a sua formação ou o seu trabalho
+
+   Responda com o número da opção. Se o usuário escolher uma área ampla, aceite e siga; não faça perguntas adicionais sobre a profissão. Use a área em todas as sugestões seguintes. Se o usuário já tiver informado a profissão na conversa, não pergunte de novo.
+
+1. **A dor:** "Que problema você quer resolver? Pense em algo específico, frequente e incômodo o bastante para alguém querer mudar." Ofereça 4 problemas concretos e plausíveis da área do usuário, numerados, e a opção 5: "Outra: digite a sua ideia". As sugestões são exemplos para inspirar, não dados: não acrescente números, estatísticas ou frequências a elas.
+2. **Quem sofre com ela:** "Quem sente mais esse problema?" Ofereça de 3 a 4 perfis numerados, derivados da dor escolhida (por exemplo, quem vive o problema, quem atende, quem administra ou quem paga), e a última opção "Outra: digite a sua ideia". Em seguida, em uma pergunta separada, como o usuário sabe que a dor existe: 1. Vivo ou vejo isso de perto; 2. Ouvi de outras pessoas; 3. Fiz entrevistas ou pesquisa; 4. Tenho dados de uso, de atendimento ou de vendas; 5. Outra: digite como sabe.
+3. **O que fazem hoje:** "O que essas pessoas fazem hoje para lidar com o problema?" Ofereça de 3 a 4 alternativas plausíveis, numeradas, e a última opção "Outra: digite a sua ideia".
+4. **A solução:** "Como você pretende resolver isso?" Ofereça de 3 a 4 direções de solução diferentes entre si, numeradas e coerentes com a dor e o público escolhidos, e a última opção "Outra: digite a sua ideia".
 
 ### Passo 2: Diagnóstico rápido
 
@@ -103,7 +114,7 @@ Abaixo da tabela, em até três linhas: o ponto mais forte, o ponto mais frágil
 
 ### Passo 3: Pitch
 
-Pergunte, com opções numeradas, para quem será o pitch: 1. Uma banca de aula ou de edital; 2. Um investidor ou mentor; 3. Um possível cliente; 4. Outra: descreva o que prefere. Responda com o número da opção. Se o usuário já tiver dito, não pergunte.
+Pergunte, com opções numeradas, para quem será o pitch: 1. Uma banca de aula ou de edital; 2. Um investidor ou mentor; 3. Um possível cliente; 4. Outra: digite para quem será. Responda com o número da opção. Se o usuário já tiver dito, não pergunte.
 
 Entregue:
 

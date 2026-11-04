@@ -2,6 +2,14 @@
 
 Este arquivo registra as mudanças de cada versão do plugin Trilha Startup. A numeração segue o padrão MAIOR.MENOR.CORREÇÃO: correções de texto aumentam o último número; novos recursos, o do meio; mudanças que alteram o formato do perfil da startup, o primeiro.
 
+## 1.3.1 (2026-11-04)
+
+Ajustes de usabilidade na versão rápida.
+
+- `startup-express`: pergunta inicial sobre a formação ou o trabalho do usuário, para direcionar as sugestões.
+- `startup-express`: todas as perguntas passam a trazer opções numeradas, adaptadas à área do usuário, com a última alternativa "Outra: digite a sua ideia"; nova pergunta sobre o que as pessoas fazem hoje.
+- `startup-ideia`: ao completar um perfil da versão rápida, pergunta apenas os dados do empreendedor ainda pendentes.
+
 ## 1.3.0 (2026-11-04)
 
 Versão rápida da trilha.

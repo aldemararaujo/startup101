@@ -24,7 +24,7 @@ Todas as etapas compartilham o arquivo `perfil-startup.md`, que acumula o que j�
 
 ## Como usar
 
-1. Instale o plugin em **Customize, Plugins, Add, Add marketplace**, informando `aldemararaujo/startup101`, ou baixe o arquivo [trilha-startup-1.3.0.zip](https://github.com/aldemararaujo/startup101/raw/main/pacotes/trilha-startup-1.3.0.zip) e envie-o em **Upload plugin**. No Claude Code: `/plugin install trilha-startup --marketplace aldemararaujo/startup101`.
+1. Instale o plugin em **Customize, Plugins, Add, Add marketplace**, informando `aldemararaujo/startup101`, ou baixe o arquivo [trilha-startup-1.3.1.zip](https://github.com/aldemararaujo/startup101/raw/main/pacotes/trilha-startup-1.3.1.zip) e envie-o em **Upload plugin**. No Claude Code: `/plugin install trilha-startup --marketplace aldemararaujo/startup101`.
 2. Ative **Code execution and file creation** em **Settings, Capabilities**, caso ainda não esteja ativa.
 3. Crie um Projeto no Claude para a sua startup.
 4. Abra uma conversa no Projeto e diga, por exemplo: "Tenho uma ideia de startup e não sei por onde começar."

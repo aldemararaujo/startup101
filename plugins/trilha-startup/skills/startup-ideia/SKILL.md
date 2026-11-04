@@ -104,7 +104,7 @@ Todas as skills da cadeia compartilham um arquivo chamado `perfil-startup.md`, q
 
 - Se houver, leia-o, resuma em três linhas o que já está definido e pergunte como o usuário quer seguir, com opções numeradas: 1. Retomar de onde parou (recomendado); 2. Rever uma fase específica; 3. Recomeçar a etapa; 4. Outra: descreva o que prefere. Responda com o número da opção. Pule a Fase 0.
 - **Se o perfil vier da versão rápida** (a seção "Etapa 1: Ideia" tem a linha "Origem: versão rápida"), não recomece do zero. Aproveite a dor, o público, a solução, o scorecard e a premissa de maior risco já registrados e faça apenas o que ficou pendente:
-  1. Fase 0, se a seção "Empreendedor" estiver vazia.
+  1. Fase 0, apenas com as perguntas cujos campos da seção "Empreendedor" ainda estejam pendentes (a versão rápida já registra a área de atuação).
   2. Fases 1 a 3 em modo de confirmação: mostre o que já foi registrado em cada fase e pergunte, com opções numeradas, se o usuário quer manter (recomendado) ou ajustar.
   3. Fase 4: revise o scorecard com o contexto da Fase 0 e conduza a decisão (seguir, ajustar ou abandonar).
   4. Fases 5 e 6 completas.
