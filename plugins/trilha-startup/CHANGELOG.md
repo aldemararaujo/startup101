@@ -2,6 +2,16 @@
 
 Este arquivo registra as mudanças de cada versão do plugin Trilha Startup. A numeração segue o padrão MAIOR.MENOR.CORREÇÃO: correções de texto aumentam o último número; novos recursos, o do meio; mudanças que alteram o formato do perfil da startup, o primeiro.
 
+## 1.3.0 (2026-11-04)
+
+Versão rápida da trilha.
+
+- Nova skill `startup-express`: 4 passos (a ideia em três perguntas, diagnóstico rápido, pitch de 1 minuto com frase de 100 caracteres e Cartão da Startup de uma página, em Markdown e documento do Claude), para quem tem pouco tempo, aulas e demonstrações.
+- `startup-pipeline`: pergunta inicial sobre o modo (trilha completa, de 30 a 60 minutos, ou versão rápida) e orientação para completar um perfil vindo da versão rápida.
+- `startup-ideia`: aproveita um perfil da versão rápida e completa apenas o que ficou pendente.
+- `startup-pitch`: usa o pitch da versão rápida apenas como ponto de partida.
+- Perfil da startup: nova seção opcional "Versão Rápida" e marca de origem na Etapa 1, compatíveis com perfis anteriores.
+
 ## 1.2.0 (2026-11-04)
 
 Indicadores de progresso e de maturidade.

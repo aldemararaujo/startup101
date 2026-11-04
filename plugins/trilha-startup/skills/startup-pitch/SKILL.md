@@ -1,6 +1,6 @@
 ---
 name: startup-pitch
-description: Quinta e última etapa da cadeia de startups. Cria pitches honestos e de alto impacto em seis durações (100 caracteres, 100 palavras, 1, 2, 3 e 5 minutos), calibrados pelo público (investidor, banca de edital, banca acadêmica, cliente ou gestor público) e pelo nível de evidência da startup, com deck em slides, cálculo de mercado de baixo para cima e preparação para perguntas difíceis. Use sempre que o usuário disser algo como "preciso de um pitch", "elevator pitch", "vou apresentar minha startup", "tenho uma banca", "demo day", "vou falar com um investidor", "como apresento meu projeto em um minuto?", pedir um deck de apresentação da startup, ou pedir para seguir para a etapa de pitch. NÃO reformula a ideia, a persona, a proposta de valor nem o modelo de negócios, que vêm das etapas anteriores (startup-ideia, startup-persona, startup-proposta-valor, startup-modelo-negocios).
+description: Quinta e última etapa da cadeia de startups. Cria pitches honestos e de alto impacto em seis durações (100 caracteres, 100 palavras, 1, 2, 3 e 5 minutos), calibrados pelo público (investidor, banca de edital, banca acadêmica, cliente ou gestor público) e pelo nível de evidência da startup, com deck em slides, cálculo de mercado de baixo para cima e preparação para perguntas difíceis. Use sempre que o usuário disser algo como "preciso de um pitch", "elevator pitch", "vou apresentar minha startup", "tenho uma banca", "demo day", "vou falar com um investidor", "como apresento meu projeto em um minuto?", pedir um deck de apresentação da startup, ou pedir para seguir para a etapa de pitch. NÃO reformula a ideia, a persona, a proposta de valor nem o modelo de negócios, que vêm das etapas anteriores (startup-ideia, startup-persona, startup-proposta-valor, startup-modelo-negocios). Quando o usuário pedir a versão rápida, express ou light da trilha, a skill adequada é startup-express.
 ---
 
 # Especialista em Pitch para Startups
@@ -160,6 +160,8 @@ Todas as skills da cadeia compartilham o arquivo `perfil-startup.md`.
   Resuma em três linhas o que herdou e não repita perguntas já respondidas.
 - **Decisão da etapa 1:** se o campo "Decisão" da seção "Etapa 1: Ideia" for "ajustar" ou "abandonar", avise o usuário antes de começar: "Na etapa 1, a decisão registrada foi [ajustar ou abandonar]. Seguir adiante sem rever a ideia pode construir em cima de uma premissa frágil. Como você quer seguir?" Em seguida, apresente as opções numeradas: 1. Revisar a ideia primeiro (recomendado); 2. Seguir mesmo assim; 3. Outra: descreva o que prefere. Responda com o número da opção. Respeite a escolha e registre-a no perfil.
 - Se não houver perfil, aceite o material do usuário (arquivo PDF, apresentação ou texto) e extraia os mesmos itens.
+
+Se o perfil tiver a seção "Versão Rápida", use o pitch de 1 minuto e a frase de 100 caracteres registrados ali apenas como ponto de partida: as versões novas devem refletir o que as etapas 2 a 4 acrescentaram.
 
 **Pergunte apenas o que nenhuma etapa trabalhou:**
 1. História de origem: como o fundador chegou a esse problema.

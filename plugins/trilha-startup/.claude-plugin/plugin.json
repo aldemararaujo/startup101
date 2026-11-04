@@ -1,8 +1,8 @@
 {
   "name": "trilha-startup",
   "displayName": "Trilha Startup",
-  "version": "1.2.0",
-  "description": "Trilha guiada para criar e validar uma startup em estágio inicial, em cinco etapas (ideia, persona, proposta de valor, modelo de negócios e pitch) e um orquestrador, com perfil da startup compartilhado entre as etapas, níveis de evidência e dossiê consolidado.",
+  "version": "1.3.0",
+  "description": "Trilha guiada para criar e validar uma startup em estágio inicial, em cinco etapas (ideia, persona, proposta de valor, modelo de negócios e pitch) e um orquestrador, além de uma versão rápida em 4 passos, com perfil da startup compartilhado entre as etapas, níveis de evidência e dossiê consolidado.",
   "author": {
     "name": "Aldemar Araujo Castro",
     "url": "https://usinadepesquisa.com"

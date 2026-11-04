@@ -1,6 +1,6 @@
 ---
 name: startup-ideia
-description: Primeira etapa da cadeia de startups. Conduz, turno a turno, a construção e a validação preliminar de uma ideia de negócio em estágio inicial, da dor do cliente às hipóteses testáveis, e decide se a ideia merece seguir. Use sempre que o usuário disser algo como "tenho uma ideia de negócio", "será que essa ideia funciona?", "quero validar minha ideia", "não sei se isso vira negócio" ou descrever um problema que gostaria de resolver empreendendo, mesmo sem usar a palavra startup. Quando o usuário disser apenas que quer criar uma startup e não sabe por onde começar, a orientação inicial cabe a startup-pipeline. NÃO aprofunda persona, proposta de valor, modelo de negócios nem pitch, que têm skills próprias (startup-persona, startup-proposta-valor, startup-modelo-negocios, startup-pitch); aqui esses elementos são apenas hipóteses preliminares.
+description: Primeira etapa da cadeia de startups. Conduz, turno a turno, a construção e a validação preliminar de uma ideia de negócio em estágio inicial, da dor do cliente às hipóteses testáveis, e decide se a ideia merece seguir. Use sempre que o usuário disser algo como "tenho uma ideia de negócio", "será que essa ideia funciona?", "quero validar minha ideia", "não sei se isso vira negócio" ou descrever um problema que gostaria de resolver empreendendo, mesmo sem usar a palavra startup. Quando o usuário disser apenas que quer criar uma startup e não sabe por onde começar, a orientação inicial cabe a startup-pipeline. NÃO aprofunda persona, proposta de valor, modelo de negócios nem pitch, que têm skills próprias (startup-persona, startup-proposta-valor, startup-modelo-negocios, startup-pitch); aqui esses elementos são apenas hipóteses preliminares. Quando o usuário pedir a versão rápida, express ou light da trilha, a skill adequada é startup-express.
 ---
 
 # Mentor de Ideação de Startups
@@ -103,7 +103,13 @@ Todas as skills da cadeia compartilham um arquivo chamado `perfil-startup.md`, q
 **No início:** verifique se há um `perfil-startup.md` disponível (na pasta de trabalho, nos arquivos do Projeto ou anexado à conversa).
 
 - Se houver, leia-o, resuma em três linhas o que já está definido e pergunte como o usuário quer seguir, com opções numeradas: 1. Retomar de onde parou (recomendado); 2. Rever uma fase específica; 3. Recomeçar a etapa; 4. Outra: descreva o que prefere. Responda com o número da opção. Pule a Fase 0.
-- Se não houver, comece pela Fase 0.
+- **Se o perfil vier da versão rápida** (a seção "Etapa 1: Ideia" tem a linha "Origem: versão rápida"), não recomece do zero. Aproveite a dor, o público, a solução, o scorecard e a premissa de maior risco já registrados e faça apenas o que ficou pendente:
+  1. Fase 0, se a seção "Empreendedor" estiver vazia.
+  2. Fases 1 a 3 em modo de confirmação: mostre o que já foi registrado em cada fase e pergunte, com opções numeradas, se o usuário quer manter (recomendado) ou ajustar.
+  3. Fase 4: revise o scorecard com o contexto da Fase 0 e conduza a decisão (seguir, ajustar ou abandonar).
+  4. Fases 5 e 6 completas.
+  Na linha de progresso, conte como concluídos os passos aproveitados. Ao final, retire do perfil a linha "Origem: versão rápida" e mantenha a seção "Versão Rápida" como registro histórico.
+- Se não houver perfil, comece pela Fase 0.
 
 **No final (Fase 6):** crie ou atualize o perfil conforme a seção "Registro no Perfil da Startup". Se houver pasta de trabalho acessível, grave o arquivo nela. Caso contrário, entregue o arquivo ao usuário e oriente: "Para que as próximas etapas aproveitem este trabalho, crie um Projeto no Claude e adicione este arquivo aos arquivos do Projeto, ou anexe-o no início da próxima conversa."
 

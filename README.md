@@ -6,13 +6,13 @@ Repositório de plugins de Aldemar Araujo Castro (https://usinadepesquisa.com) p
 
 | Plugin | Versão | Descrição |
 |---|---|---|
-| [Trilha Startup](plugins/trilha-startup/README.md) | 1.2.0 | Trilha guiada para criar e validar uma startup em estágio inicial: ideia, persona, proposta de valor, modelo de negócios e pitch. |
+| [Trilha Startup](plugins/trilha-startup/README.md) | 1.3.0 | Trilha guiada para criar e validar uma startup em estágio inicial: ideia, persona, proposta de valor, modelo de negócios e pitch. |
 
 ## Como instalar
 
 **No claude.ai ou no aplicativo de desktop:** abra **Customize, Plugins**, escolha **Add marketplace** e informe o endereço deste repositório: `aldemararaujo/startup101` (ou https://github.com/aldemararaujo/startup101). Depois, instale o plugin desejado. Para receber atualizações automaticamente, ative **Sync automatically**.
 
-**Sem GitHub:** baixe o arquivo [trilha-startup-1.2.0.zip](https://github.com/aldemararaujo/startup101/raw/main/pacotes/trilha-startup-1.2.0.zip), da pasta `pacotes` deste repositório, e envie-o em **Customize, Plugins, Add, Upload plugin**. Nesse caso, as atualizações exigem baixar e enviar a nova versão.
+**Sem GitHub:** baixe o arquivo [trilha-startup-1.3.0.zip](https://github.com/aldemararaujo/startup101/raw/main/pacotes/trilha-startup-1.3.0.zip), da pasta `pacotes` deste repositório, e envie-o em **Customize, Plugins, Add, Upload plugin**. Nesse caso, as atualizações exigem baixar e enviar a nova versão.
 
 **No Claude Code:** o plugin instalado na sua conta do Claude sincroniza automaticamente. Para instalar pela linha de comando, use:
 

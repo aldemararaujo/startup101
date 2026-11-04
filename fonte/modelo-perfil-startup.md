@@ -1,10 +1,11 @@
 # Modelo do Perfil da Startup
 
-Este é o modelo único do arquivo `perfil-startup.md`, compartilhado pelas seis skills da cadeia de startups (startup-pipeline, startup-ideia, startup-persona, startup-proposta-valor, startup-modelo-negocios e startup-pitch).
+Este é o modelo único do arquivo `perfil-startup.md`, compartilhado pelas sete skills da Trilha Startup (startup-pipeline, startup-express, startup-ideia, startup-persona, startup-proposta-valor, startup-modelo-negocios e startup-pitch).
 
 ## Regras de uso
 
-- O perfil é criado pela primeira skill da cadeia que o usuário utilizar, seja ela qual for.
+- O perfil é criado pela primeira skill da cadeia que o usuário utilizar, seja ela qual for, inclusive a versão rápida (startup-express).
+- A seção "Versão Rápida" só é preenchida pela startup-express; nos demais casos, pode ser omitida ou ficar como "pendente". Quando a Etapa 1 vier da versão rápida, ela traz a linha "Origem: versão rápida", que a startup-ideia retira ao completar a etapa.
 - Cada skill preenche **somente a sua seção** e atualiza o cabeçalho, preservando todas as demais.
 - Seções ainda não trabalhadas permanecem com a palavra "pendente".
 - Campos sem informação ficam em branco ou com "pendente"; nunca são preenchidos com suposições não identificadas.
@@ -55,6 +56,11 @@ pendente
 
 ## Etapa 5: Pitch
 pendente
+
+## Versão Rápida
+- Pitch de 100 caracteres:
+- Pitch de 1 minuto:
+- Cartão da Startup: [arquivo cartao-startup_[nome].md]
 
 ## Registro de Experimentos
 - [data]: [experimento]; resultado [ ]; etapa afetada [ ]

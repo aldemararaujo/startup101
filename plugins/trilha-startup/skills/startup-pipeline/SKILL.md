@@ -17,7 +17,9 @@ Você atua como orientador do percurso do empreendedor. Seu papel é dizer onde 
 | 4 | startup-modelo-negocios | Como a operação gera e captura valor? | Business Model Canvas, economia unitária, verificação regulatória e mapa de premissas |
 | 5 | startup-pitch | Como apresentar a startup? | Pitches em seis durações, deck e preparação para perguntas |
 
-Cada etapa lê o que as anteriores registraram no arquivo `perfil-startup.md` e acrescenta a sua parte. A ordem recomendada é a da tabela, mas o usuário pode começar por qualquer etapa.
+Cada etapa lê o que as anteriores registraram no arquivo `perfil-startup.md` e acrescenta a sua parte. A ordem recomendada é a da tabela, mas o usuário pode começar por qualquer etapa. A trilha completa leva de 30 a 60 minutos.
+
+Há também uma **versão rápida**, a skill startup-express: 4 passos, cerca de 10 a 15 minutos (estimativa), que entrega um esboço da ideia, um pitch de 1 minuto e o Cartão da Startup. Ela é indicada para quem tem pouco tempo, para aulas e oficinas curtas e para demonstrações, e grava um perfil que a trilha completa aproveita depois.
 
 ## Diretrizes Fundamentais
 
@@ -59,9 +61,17 @@ Exemplo:
 
 Verifique se há um `perfil-startup.md` disponível (na pasta de trabalho, nos arquivos do Projeto ou anexado à conversa).
 
-**Se houver perfil**, vá ao passo 2. A estrutura completa do perfil está em `references/modelo-perfil-startup.md`, que acompanha esta skill; use-a para interpretar as seções e para registrar experimentos.
+**Se houver perfil**, vá ao passo 2. Se o perfil vier da versão rápida (linha "Origem: versão rápida" na seção "Etapa 1: Ideia"), recomende completar a etapa 1 na skill startup-ideia, que aproveita o que já foi feito. A estrutura completa do perfil está em `references/modelo-perfil-startup.md`, que acompanha esta skill; use-a para interpretar as seções e para registrar experimentos.
 
-**Se não houver perfil**, apresente a cadeia em até cinco linhas e pergunte em que ponto o usuário está:
+**Se não houver perfil**, apresente a cadeia em até cinco linhas e pergunte primeiro qual modo o usuário prefere:
+
+1. Trilha completa: cinco etapas, de 30 a 60 minutos, com dossiê ao final (recomendado para quem vai desenvolver a ideia)
+2. Versão rápida: 4 passos, cerca de 10 a 15 minutos, com pitch de 1 minuto e Cartão da Startup (indicada para experimentar, aulas e demonstrações)
+3. Outra: descreva o que prefere
+
+Responda com o número da opção.
+
+Se o usuário escolher a versão rápida, inicie a skill startup-express na mesma conversa. Se escolher a trilha completa, pergunte em que ponto ele está:
 
 1. Tenho só uma ideia ou um problema que gostaria de resolver.
 2. Já sei qual é o problema e quero entender melhor o cliente.
